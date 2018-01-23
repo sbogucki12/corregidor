@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+
+hr {
+    border-color: #4AC4FF;
+    padding-bottom: 3%;
+}
+
+#footer {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 24px;
+}
