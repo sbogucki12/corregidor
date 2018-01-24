@@ -8,6 +8,7 @@ import { NameComponent } from './name/name.component';
 import { ContactComponent } from './contact/contact.component';
 import { ValuesComponent } from './values/values.component';
 import { BlogComponent } from './blog/blog.component';
+import { FormsModule } from '@angular/forms';
 
 const appRoutes: Routes= [
   {path:"", component: HomeComponent},
@@ -31,6 +32,7 @@ const appRoutes: Routes= [
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

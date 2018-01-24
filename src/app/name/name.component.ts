@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./name.component.css']
 })
 export class NameComponent implements OnInit {
-  crest = '../../assets/images/503rd.jpg';
+  crest = '../../app/';
 
   constructor() { }
 
